@@ -1,0 +1,14 @@
+name: pcrm-book
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - scipy
+  - seaborn
+  - pandas
+  - cvxopt
+  - jupyterlab
+  - pip
+  - pip:
+      - fortitudo.tech
+      - yfinance

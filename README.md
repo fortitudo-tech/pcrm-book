@@ -3,6 +3,24 @@ This is the development repository for the Portfolio Construction and Risk
 Management book, which is only accessible to
 [crowdfunding campaign backers](https://igg.me/at/pcrm-book).
 
+# Running the code
+It is recommended to install the book's code dependencies in a 
+[conda environment](https://conda.io/projects/conda/en/latest/user-guide/concepts/environments.html).
+
+After cloning the repository to your local machine, you can install the dependencies
+using the following command in your terminal:
+
+    conda env create -f environment.yml
+
+You can then activate the conda environment and start a [JupyterLab](https://jupyter.org/)
+instance using the following commands:
+
+    conda activate pcrm-book
+    jupyter lab
+
+If you are completely new to conda environments and Jupyter notebooks, you can
+find a lot of information online.
+
 # Feedback and questions
 Please post your feedback and questions in the community discussion forum. I
 will answer the questions to the best of my capability and try to incorporate
