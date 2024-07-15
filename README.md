@@ -18,8 +18,8 @@ instance using the following commands:
     conda activate pcrm-book
     jupyter lab
 
-If you are completely new to conda environments and Jupyter notebooks, you can
-find a lot of information online.
+If you are completely new to [conda environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+and Jupyter notebooks, you can find a lot of information online.
 
 # Feedback and questions
 Please post your feedback and questions in the community discussion forum. I
@@ -38,9 +38,9 @@ book and the code, and thereby encourage more people to support the project.
 
 No matter how much economic support this project realistically gets during writing,
 it will only be a small fraction of the opportunity costs from writing the book at
-expense of consulting investment management clients and subsequently making it
-freely available online. Hence, you are encouraged to support it by the amount
-that you feel it is worth to you.
+expense of consulting investment management clients and subsequently potentially
+making it freely available online. Hence, you are encouraged to support it by the
+amount that you feel it is worth to you.
 
 If you happen to be among top 10 backers by the time the book is made publicly
 available, you will get three months personal access to an institutional-grade
