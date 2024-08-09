@@ -1,7 +1,7 @@
 # Repository for the Portfolio Construction and Risk Management book
 This is the development repository for the Portfolio Construction and Risk
 Management book, which is only accessible to
-[crowdfunding campaign backers](https://igg.me/at/pcrm-book).
+[crowdfunding campaign contributors](https://igg.me/at/pcrm-book).
 
 # Running the code
 It is recommended to install the book's code dependencies in a 
@@ -42,13 +42,13 @@ expense of consulting investment management clients and subsequently potentially
 making it freely available online. Hence, you are encouraged to support it by the
 amount that you feel it is worth to you.
 
-If you happen to be among top 10 backers by the time the book is made publicly
+If you happen to be among top 10 contributors by the time the book is made publicly
 available, you will get three months personal access to an institutional-grade
 implementation of the framework from this book to really test out your newly
 acquired knowledge.
 
-If you are among the top 10 backers or claim one of the campaign backer perks,
-you can choose to be recognized in the book's preface as someone who has
+If you are among the top 10 contributors or claim one of the campaign contributor
+perks, you can choose to be recognized in the book's preface as someone who has
 significantly contributed to the creation of this book.
 
 # License
@@ -56,7 +56,7 @@ While the book is being written, it is under a strict All Rights Reserved
 license. You are allowed to clone or download the contents of the repository
 to devices that only you have access to.
 
-I have kept the access cost to a practical minimum of €10, which hopefully
+I have kept the access cost to a practical minimum of €15, which hopefully
 makes it accessible to almost everyone.
 
 If you get knowledge of anyone sharing the contents in other ways, please
