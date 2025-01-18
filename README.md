@@ -38,7 +38,7 @@ Besides your personal monetary support, you can help accelerate the process and
 improve the quality by simply publicly sharing your positive experience with the
 book and the code, and thereby encourage more people to support the project. You
 are also encouraged to give this and 
-(the supporting fortitudo.tech)[https://github.com/fortitudo-tech/fortitudo.tech]
+[the supporting fortitudo.tech](https://github.com/fortitudo-tech/fortitudo.tech)
 repository a star.
 
 No matter how much economic support this project realistically gets, it will only
@@ -55,7 +55,7 @@ If you are among the top 10 contributors or claim one of the campaign contributo
 perks, you can choose to be recognized in the book's preface as someone who has
 significantly contributed to the creation of this book. You will additionally get
 a one-year paid complimentary Substack subscription to the
-(Quantamental Investing publication)[https://antonvorobets.substack.com], which will
+[Quantamental Investing publication](https://antonvorobets.substack.com), which will
 contain exclusive case studies.
 
 # Licenses
