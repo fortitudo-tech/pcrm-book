@@ -10,5 +10,4 @@ dependencies:
   - jupyterlab
   - pip
   - pip:
-      - fortitudo.tech
-      - yfinance
+      - pcrm-book

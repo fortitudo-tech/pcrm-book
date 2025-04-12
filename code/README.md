@@ -1,10 +1,20 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fortitudo-tech/pcrm-book/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fcode)
+
 # Portfolio Construction and Risk Management book's Python code
-This folder contains the accompanying code to Portfolio Construction and Risk
+This repository contains the accompanying code to Portfolio Construction and Risk
 Management book © 2025 by Anton Vorobets. [You can find the latest PDF version of
 the book in this Substack post](https://antonvorobets.substack.com/p/pcrm-book).
 
-If you want to support this project and potentially get perks and recognition
-for it, see the [crowdfunding campaign](https://igg.me/at/pcrm-book).
+For a quick video introduction to what you can expect from this book and some
+fundamental perspectives, [watch this video](https://antonvorobets.substack.com/p/anton-vorobets-next-generation-investment-framework).
+
+Subscribe to the [Quantamental Investing Substack publication](https://antonvorobets.substack.com)
+to stay updated on all news related to the book.
+
+You can still support this project and potentially get perks and recognition for it,
+see the [crowdfunding campaign](https://igg.me/at/pcrm-book).
+
+For smaller contributions, please use [buy me a coffee](https://buymeacoffee.com/antonvorobets).
 
 # Running the code
 It is recommended to install the book's code dependencies in a 
@@ -23,6 +33,16 @@ instance using the following commands:
 
 If you are completely new to [conda environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 and Jupyter notebooks, you can find a lot of information online.
+
+You can also run the code without any local installations using [Binder](https://mybinder.org/v2/gh/fortitudo-tech/pcrm-book/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fcode).
+Note however that Binder servers are not always available and might have
+insufficient resources to run all the examples.
+
+# Feedback
+Please post your feedback in the community Discussions forum. I will try to
+incorporate the feedback in the book. See the book's preface for some general
+perspectives on what it tries to achieve, and which kind feedback will
+be considered appropriate.
 
 # Thank you for your support
 Your support made it possible for this book to be written.
@@ -43,3 +63,12 @@ you think it is worth to you.
 you can choose to be recognized in the book's preface. You will additionally get a one-year
 paid complimentary Substack subscription to the [Quantamental Investing publication](https://antonvorobets.substack.com),
 which will contain exclusive case studies and allow you to continue asking questions.
+
+# Licenses
+The Portfolio Construction and Risk Management book © 2025 by Anton Vorobets is licensed
+under Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International. To view
+a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/
+
+The accompanying code to the Portfolio Construction and Risk Management book © 2025 by
+Anton Vorobets is licensed under version 3 of the GNU General Public License. To view
+a copy of this license, visit https://www.gnu.org/licenses/gpl-3.0.en.html
