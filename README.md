@@ -3,8 +3,16 @@ This repository contains the accompanying code to Portfolio Construction and Ris
 Management book © 2025 by Anton Vorobets. [You can find the latest PDF version of
 the book in this Substack post](https://antonvorobets.substack.com/p/pcrm-book).
 
-If you want to support this project and potentially get perks and recognition
-for it, see the [crowdfunding campaign](https://igg.me/at/pcrm-book).
+For a quick video introduction to what you can expect from this book and some
+fundamental perspectives, [watch this video](https://antonvorobets.substack.com/p/anton-vorobets-next-generation-investment-framework).
+
+Subscribe to the [Quantamental Investing Substack publication](https://antonvorobets.substack.com)
+to stay updated on all news related to the book.
+
+You can still support this project and potentially get perks and recognition for it,
+see the [crowdfunding campaign](https://igg.me/at/pcrm-book).
+
+For smaller contributions, please use [buy me a coffee](https://buymeacoffee.com/antonvorobets).
 
 # Running the code
 It is recommended to install the book's code dependencies in a 
