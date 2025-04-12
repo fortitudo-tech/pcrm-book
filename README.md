@@ -1,3 +1,5 @@
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fortitudo-tech/pcrm-book/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fcode)
+
 # Portfolio Construction and Risk Management book's Python code
 This repository contains the accompanying code to Portfolio Construction and Risk
 Management book © 2025 by Anton Vorobets. [You can find the latest PDF version of
@@ -31,6 +33,10 @@ instance using the following commands:
 
 If you are completely new to [conda environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 and Jupyter notebooks, you can find a lot of information online.
+
+You can also run the code without any local installations using [Binder](https://mybinder.org/v2/gh/fortitudo-tech/pcrm-book/HEAD?urlpath=%2Fdoc%2Ftree%2F%2Fcode).
+Note however that Binder servers are not always available and might have
+insufficient resources to run all the examples.
 
 # Feedback
 Please post your feedback in the community Discussions forum. I will try to
