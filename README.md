@@ -2,8 +2,9 @@
 
 # Portfolio Construction and Risk Management book's Python code
 This repository contains the accompanying code to Portfolio Construction and Risk
-Management book © 2025 by Anton Vorobets. [You can find the latest PDF version of
-the book in this Substack post](https://antonvorobets.substack.com/p/pcrm-book).
+Management book © 2025 by Anton Vorobets.
+
+[You can find the latest PDF version of the book in this Substack post](https://antonvorobets.substack.com/p/pcrm-book).
 
 For a quick video introduction to what you can expect from this book and some
 fundamental perspectives, [watch this video](https://antonvorobets.substack.com/p/anton-vorobets-next-generation-investment-framework).
@@ -11,10 +12,14 @@ fundamental perspectives, [watch this video](https://antonvorobets.substack.com/
 Subscribe to the [Quantamental Investing Substack publication](https://antonvorobets.substack.com)
 to stay updated on all news related to the book.
 
-You can still support this project and potentially get perks and recognition for it,
-see the [crowdfunding campaign](https://igg.me/at/pcrm-book).
+You can still support the project through [buy me a coffee](https://buymeacoffee.com/antonvorobets)
+or [Substack](https://antonvorobets.substack.com).
 
-For smaller contributions, please use [buy me a coffee](https://buymeacoffee.com/antonvorobets).
+# Applied Quantitative Investment Management course
+From July 1st, 2025, you can access a course that carefully goes through the book and its
+accompanying code from this repository.
+
+[Read more about the course and how you get access here](https://antonvorobets.substack.com/p/applied-quantitative-investment-management-course).
 
 # Running the code
 It is recommended to install the book's code dependencies in a 
