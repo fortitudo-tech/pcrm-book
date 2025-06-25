@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pcrm-book"
-version = "1.0.1"
+version = "1.0.2"
 description = "Accompanying Python code to the Portfolio Construction and Risk Management book by Anton Vorobets."
 authors = ["Anton Vorobets <admin@fortitudo.tech>"]
 license = "GPL-3.0-or-later"
