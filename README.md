@@ -16,10 +16,10 @@ You can still support the project through [buy me a coffee](https://buymeacoffee
 or [Substack](https://antonvorobets.substack.com).
 
 # Applied Quantitative Investment Management course
-From July 1st, 2025, you can access a course that carefully goes through the book and its
-accompanying code from this repository.
+You can access [a course that carefully goes through the book and its accompanying
+code](https://antonvorobets.substack.com/t/course) from this repository.
 
-[Read more about the course and how you get access here](https://antonvorobets.substack.com/p/applied-quantitative-investment-management-course).
+[Read more about the course and how you get access here](https://antonvorobets.substack.com/p/course-q-and-a).
 
 # Running the code
 It is recommended to install the book's code dependencies in a 
@@ -67,7 +67,7 @@ you think it is worth to you.
 [If you claim one of the significiant contributor perks](https://igg.me/at/pcrm-book),
 you can choose to be recognized in the book's preface. You will additionally get a one-year
 paid complimentary Substack subscription to the [Quantamental Investing publication](https://antonvorobets.substack.com),
-which will contain exclusive case studies and allow you to continue asking questions.
+which contains exclusive case studies and allow you to continue asking questions.
 
 # Licenses
 The Portfolio Construction and Risk Management book © 2025 by Anton Vorobets is licensed
