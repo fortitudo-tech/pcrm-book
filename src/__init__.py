@@ -1,4 +1,4 @@
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 
 __license__ = """This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License as published by
