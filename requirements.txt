@@ -1,0 +1,16 @@
+# Production requirements for pcrm-book agents
+# Generated from pyproject.toml
+
+# Core dependencies
+fortitudo-tech>=1.1.8
+yfinance>=0.2.50
+seaborn>=0.13.0
+scipy>=1.11.0
+
+# Jupyter (optional, for notebooks)
+jupyterlab>=4.3.0
+
+# Standard scientific stack (should be included via dependencies)
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0

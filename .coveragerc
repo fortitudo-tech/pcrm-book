@@ -1,0 +1,15 @@
+[run]
+source = src/agents
+omit =
+    */tests/*
+    */test_*.py
+    */__pycache__/*
+    */site-packages/*
+
+[report]
+precision = 2
+show_missing = True
+skip_covered = False
+
+[html]
+directory = htmlcov

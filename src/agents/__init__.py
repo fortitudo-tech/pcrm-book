@@ -17,6 +17,7 @@ from .statistical_analysis_agent import StatisticalAnalysisAgent
 from .risk_analytics_agent import RiskAnalyticsAgent
 from .market_research_agent import MarketResearchAgent
 from .backtesting_agent import BacktestingAgent
+from .config import AgentConfig, config
 
 __all__ = [
     'BaseAgent',
@@ -25,4 +26,6 @@ __all__ = [
     'RiskAnalyticsAgent',
     'MarketResearchAgent',
     'BacktestingAgent',
+    'AgentConfig',
+    'config',
 ]
