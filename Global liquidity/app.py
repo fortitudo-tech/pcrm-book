@@ -14,9 +14,9 @@ def index():
 
 @app.route('/api/refresh', methods=['POST'])
 def refresh_data():
-    """Run the liquidity_website.py script to regenerate data and charts"""
+    """Run the liquidity_website_plotly.py script to regenerate data and charts"""
     try:
-        script_path = os.path.join(BASE_DIR, 'liquidity_website.py')
+        script_path = os.path.join(BASE_DIR, 'liquidity_website_plotly.py')
         result = subprocess.run(
             ['python', script_path],
             capture_output=True,
@@ -43,11 +43,11 @@ def refresh_data():
 
 @app.route('/charts/<chart_name>')
 def get_chart(chart_name):
-    """Serve chart images"""
+    """Serve interactive HTML chart files"""
     try:
         chart_path = os.path.join(BASE_DIR, chart_name)
-        if os.path.exists(chart_path):
-            return send_file(chart_path, mimetype='image/png')
+        if os.path.exists(chart_path) and chart_name.endswith('.html'):
+            return send_file(chart_path, mimetype='text/html')
         else:
             return "Chart not found", 404
     except Exception as e:

@@ -120,7 +120,7 @@
         }
 
         .chart-card:hover {
-            transform: scale(1.02);
+            transform: scale(1.01);
         }
 
         .chart-card h3 {
@@ -129,17 +129,12 @@
             font-size: 1.1em;
         }
 
-        .chart-card img {
+        .chart-card iframe {
             width: 100%;
-            height: auto;
+            height: 550px;
+            border: none;
             border-radius: 8px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            cursor: zoom-in;
-            transition: transform 0.2s;
-        }
-
-        .chart-card img:hover {
-            transform: scale(1.02);
         }
 
         /* Modal/Lightbox styles */
@@ -247,12 +242,8 @@
     <div class="container">
         <h1>🌍 Global Liquidity Dashboard</h1>
 
-        <!-- Modal for zoomed images -->
-        <div id="imageModal" class="modal" onclick="closeModal()">
-            <span class="modal-close" onclick="closeModal()">&times;</span>
-            <div class="modal-title" id="modalTitle"></div>
-            <img class="modal-content" id="modalImage">
-        </div>
+        <!-- Modal for zoomed images - NO LONGER NEEDED WITH PLOTLY -->
+        <!-- Plotly charts have built-in zoom, pan, and interactive features -->
 
         <div class="controls">
             <div class="status-message" id="statusMessage"></div>
@@ -269,15 +260,15 @@
             <div class="chart-grid">
                 <div class="chart-card">
                     <h3>Yearly View (Full History)</h3>
-                    <img src="/charts/gli_plot_flash_vs_full_yearly.png" alt="Flash vs Full - Yearly" onclick="openModal(this, 'Flash vs Full - Yearly View (Full History)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_flash_vs_full_yearly.html"></iframe>
                 </div>
                 <div class="chart-card">
                     <h3>Monthly View (6 Years)</h3>
-                    <img src="/charts/gli_plot_flash_vs_full_monthly.png" alt="Flash vs Full - Monthly" onclick="openModal(this, 'Flash vs Full - Monthly View (6 Years)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_flash_vs_full_monthly.html"></iframe>
                 </div>
                 <div class="chart-card">
                     <h3>Weekly View (2 Years)</h3>
-                    <img src="/charts/gli_plot_flash_vs_full_weekly.png" alt="Flash vs Full - Weekly" onclick="openModal(this, 'Flash vs Full - Weekly View (2 Years)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_flash_vs_full_weekly.html"></iframe>
                 </div>
             </div>
         </div>
@@ -287,15 +278,15 @@
             <div class="chart-grid">
                 <div class="chart-card">
                     <h3>Yearly View (Full History)</h3>
-                    <img src="/charts/gli_plot_growth_yearly.png" alt="Growth - Yearly" onclick="openModal(this, 'Liquidity Growth - Yearly View (Full History)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_growth_yearly.html"></iframe>
                 </div>
                 <div class="chart-card">
                     <h3>Monthly View (6 Years)</h3>
-                    <img src="/charts/gli_plot_growth_monthly.png" alt="Growth - Monthly" onclick="openModal(this, 'Liquidity Growth - Monthly View (6 Years)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_growth_monthly.html"></iframe>
                 </div>
                 <div class="chart-card">
                     <h3>Weekly View (2 Years)</h3>
-                    <img src="/charts/gli_plot_growth_weekly.png" alt="Growth - Weekly" onclick="openModal(this, 'Liquidity Growth - Weekly View (2 Years)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_growth_weekly.html"></iframe>
                 </div>
             </div>
         </div>
@@ -305,43 +296,22 @@
             <div class="chart-grid">
                 <div class="chart-card">
                     <h3>Yearly View (Full History)</h3>
-                    <img src="/charts/gli_plot_msci_overlay_yearly.png" alt="MSCI Overlay - Yearly" onclick="openModal(this, 'Liquidity vs Equities - Yearly View (Full History)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_msci_overlay_yearly.html"></iframe>
                 </div>
                 <div class="chart-card">
                     <h3>Monthly View (6 Years)</h3>
-                    <img src="/charts/gli_plot_msci_overlay_monthly.png" alt="MSCI Overlay - Monthly" onclick="openModal(this, 'Liquidity vs Equities - Monthly View (6 Years)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_msci_overlay_monthly.html"></iframe>
                 </div>
                 <div class="chart-card">
                     <h3>Weekly View (2 Years)</h3>
-                    <img src="/charts/gli_plot_msci_overlay_weekly.png" alt="MSCI Overlay - Weekly" onclick="openModal(this, 'Liquidity vs Equities - Weekly View (2 Years)')" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22%3E%3Crect fill=%22%23f0f0f0%22 width=%22400%22 height=%22300%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 text-anchor=%22middle%22 fill=%22%23999%22%3EChart not available%3C/text%3E%3C/svg%3E'">
+                    <iframe src="/charts/gli_plot_msci_overlay_weekly.html"></iframe>
                 </div>
             </div>
         </div>
     </div>
 
     <script>
-        function openModal(img, title) {
-            const modal = document.getElementById('imageModal');
-            const modalImg = document.getElementById('modalImage');
-            const modalTitle = document.getElementById('modalTitle');
-            
-            modal.classList.add('active');
-            modalImg.src = img.src;
-            modalTitle.textContent = title;
-        }
-
-        function closeModal() {
-            const modal = document.getElementById('imageModal');
-            modal.classList.remove('active');
-        }
-
-        // Close modal on Escape key
-        document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
-                closeModal();
-            }
-        });
-
+        // Simplified script - no modal needed with Plotly!
         function refreshData() {
             const loading = document.getElementById('loading');
             const statusMessage = document.getElementById('statusMessage');
@@ -364,18 +334,17 @@
                     statusMessage.className = 'status-message success';
                     statusMessage.textContent = '✅ ' + data.message;
                     
-                    // Reload all images with cache-busting timestamp
+                    // Reload all iframes
                     const timestamp = new Date().getTime();
-                    document.querySelectorAll('.chart-card img').forEach(img => {
-                        const src = img.src.split('?')[0];
-                        img.src = src + '?t=' + timestamp;
+                    document.querySelectorAll('.chart-card iframe').forEach(iframe => {
+                        const src = iframe.src.split('?')[0];
+                        iframe.src = src + '?t=' + timestamp;
                     });
                 } else {
                     statusMessage.className = 'status-message error';
                     statusMessage.textContent = '❌ ' + data.message;
                 }
                 
-                // Hide status message after 5 seconds
                 setTimeout(() => {
                     statusMessage.className = 'status-message';
                 }, 5000);
@@ -386,15 +355,6 @@
                 statusMessage.textContent = '❌ Error: ' + error.message;
             });
         }
-
-        // Auto-refresh images on page load
-        window.addEventListener('load', () => {
-            const timestamp = new Date().getTime();
-            document.querySelectorAll('.chart-card img').forEach(img => {
-                const src = img.src.split('?')[0];
-                img.src = src + '?t=' + timestamp;
-            });
-        });
     </script>
 </body>
 </html>
