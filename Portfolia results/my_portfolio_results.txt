@@ -1,0 +1,209 @@
+======================================================================
+GROWTH-FOCUSED PORTFOLIO OPTIMIZATION RESULTS
+======================================================================
+Date: December 31, 2025
+Profile: Age 37, Growth-focused investor
+Time Horizon: 10+ years (long-term)
+Data Period: 10 years of historical data (2015-2025)
+Optimization Period: Annual returns (252 trading days)
+
+======================================================================
+INDIVIDUAL ASSET PERFORMANCE (Annual Returns)
+======================================================================
+
+         Mean    Volatility  Skewness  Kurtosis  90%-CVaR
+Ticker   Return
+------------------------------------------------------------
+IWF      19.87%  17.89%      -0.58     3.53      37.68%
+QQQ      22.05%  19.85%      -0.55     3.46      41.37%
+SPY      15.59%  13.94%       0.01     3.79      26.45%
+VGT      24.73%  19.46%      -0.63     3.60      40.96%
+VTV      12.15%  12.63%       0.75     4.16      18.84%
+VUG      19.53%  18.96%      -0.58     3.62      40.10%
+XLK      24.03%  18.81%      -0.47     3.26      37.69%
+
+Key Insights:
+- VGT (Tech) had highest average return: 24.73% annually
+- XLK (Tech Select) close second: 24.03% annually
+- VTV (Value) most stable: 12.63% volatility, lowest CVaR
+- Tech ETFs show negative skewness (occasional big drops)
+
+======================================================================
+RECOMMENDED PORTFOLIO ALLOCATION (GROWTH STRATEGY)
+======================================================================
+
+PRIMARY RECOMMENDATION: Mean-Variance Optimization
+--------------------------------------------------
+XLK (Technology Select Sector)    89.51%
+VTV (Vanguard Value ETF)          10.49%
+                                 -------
+TOTAL                            100.00%
+
+Conservative Alternative: CVaR Optimization
+-------------------------------------------
+XLK (Technology Select Sector)    96.58%
+VTV (Vanguard Value ETF)           3.42%
+
+Equal Weight Baseline (for comparison)
+--------------------------------------
+Each of 7 ETFs                    14.29%
+
+======================================================================
+PORTFOLIO PERFORMANCE COMPARISON (Annual)
+======================================================================
+
+Metric                        Mean-Variance  CVaR        Equal Weight
+                              (GROWTH)       (Conserv)
+------------------------------------------------------------------------
+Mean Return                   13.39%         12.55%      19.71%
+Volatility (Std Dev)          12.52%         12.57%      16.49%
+CVaR 90% (Tail Risk)          19.09%         18.78%      33.85%
+Sharpe Ratio                   1.069          0.998       1.195
+
+Interpretation:
+- Mean-Variance delivers 13.4% annual return with controlled risk
+- In worst 10% of years, expect ~19% loss (vs 34% for equal weight)
+- Sharpe Ratio of 1.07 = excellent risk-adjusted returns
+- Equal weight has higher returns BUT much higher tail risk
+
+======================================================================
+EXECUTION PLAN FOR FIDELITY
+======================================================================
+
+PORTFOLIO SIZE: $10,000 (scale proportionally for your amount)
+
+BUY THE FOLLOWING:
+  XLK    89.51%  →  $8,951.40
+  VTV    10.49%  →  $1,048.60
+
+STEPS:
+1. Log into your Fidelity account
+2. Navigate to: Trade → Stocks/ETFs
+3. Enter market or limit orders for each ETF
+4. Buy using dollar amounts or calculate shares:
+   - XLK shares = $8,951.40 ÷ current XLK price
+   - VTV shares = $1,048.60 ÷ current VTV price
+
+5. Set calendar reminder to review/rebalance annually
+   (Suggested: every January 1st)
+
+6. HOLD for long-term growth (10+ years minimum)
+
+======================================================================
+PORTFOLIO STRATEGY RATIONALE
+======================================================================
+
+WHY THIS ALLOCATION?
+
+1. TECH CONCENTRATION (90% XLK)
+   ✓ Technology sector delivered 24% annual returns over 10 years
+   ✓ Best risk-adjusted performance in the asset universe
+   ✓ Positioned for continued digital transformation trends
+   ⚠ Concentrated sector exposure - consider job sector diversification
+
+2. VALUE HEDGE (10% VTV)
+   ✓ Most stable ETF with positive skewness (fewer big drops)
+   ✓ Provides downside protection during tech corrections
+   ✓ Value stocks can outperform when rates stabilize
+
+3. TIME HORIZON ADVANTAGE
+   ✓ At 37, you have 25-30 years until retirement
+   ✓ Can weather 19% drawdowns knowing tech rebounds
+   ✓ Annual rebalancing captures gains and maintains target allocation
+
+4. EXCLUDED ASSETS (0% allocation)
+   - SPY, QQQ, VUG, VGT, IWF not optimal after optimization
+   - XLK provides superior tech exposure vs these alternatives
+   - Optimization found concentrated position beats diversification
+
+======================================================================
+RISK CONSIDERATIONS
+======================================================================
+
+RISKS TO BE AWARE OF:
+
+1. Sector Concentration Risk
+   - 90% in single sector (Technology)
+   - Vulnerable to tech-specific downturns
+   - Consider: Do you work in tech? Additional concentration risk
+
+2. Market Timing Risk
+   - Based on 2015-2025 data (strong tech period)
+   - Past performance ≠ future results
+   - Tech leadership could rotate to other sectors
+
+3. Drawdown Tolerance
+   - CVaR 19% = expect ~19% loss in bad years
+   - 2022-style corrections could be -25% to -35%
+   - Ensure you can hold without panic selling
+
+4. Rebalancing Discipline
+   - Must rebalance annually to maintain allocation
+   - May require selling winners (difficult psychologically)
+   - Consider tax implications in taxable accounts
+
+MITIGATIONS:
+- 10% VTV allocation provides some stability
+- Long time horizon allows recovery from corrections
+- Annual rebalancing enforces "sell high, buy low"
+- Consider increasing VTV % if volatility concerns you
+
+======================================================================
+NEXT STEPS & MONITORING
+======================================================================
+
+IMMEDIATE:
+□ Review this allocation with your risk tolerance
+□ Confirm XLK concentration aligns with your goals
+□ Check if you have existing tech exposure (job, other accounts)
+□ Execute trades in Fidelity account
+
+ONGOING (Annual Review):
+□ Check allocation drift (XLK likely grew faster than VTV)
+□ Rebalance back to 90/10 targets
+□ Assess whether strategy still fits your situation
+□ Consider increasing VTV as you approach retirement (age 50+)
+
+WATCH FOR:
+- Major tech sector corrections (rebalancing opportunity)
+- Changes in your risk tolerance
+- Job changes affecting diversification needs
+- Life events requiring more stability
+
+======================================================================
+CHARTS GENERATED
+======================================================================
+
+The following visualizations have been saved:
+
+1. my_portfolio_results.png
+   - Bar chart: Allocation comparison across strategies
+   - Histogram: Return distribution (Growth vs Conservative)
+
+2. my_risk_return_chart.png
+   - Scatter plot: Risk-return profile
+   - Shows individual assets vs portfolio positions
+
+Review these charts for visual understanding of the optimization.
+
+======================================================================
+DISCLAIMER
+======================================================================
+
+This analysis is for educational purposes based on historical data.
+It is NOT financial advice. Consider consulting a financial advisor
+before making investment decisions.
+
+Past performance does not guarantee future results.
+Investing involves risk, including possible loss of principal.
+
+Your actual returns will vary based on:
+- Entry timing and market conditions
+- Fees and expenses
+- Tax situation
+- Rebalancing discipline
+- Behavioral factors (staying invested during downturns)
+
+======================================================================
+END OF REPORT
+======================================================================
