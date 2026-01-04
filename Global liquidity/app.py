@@ -59,5 +59,10 @@ def chart_exists(chart_name):
     chart_path = os.path.join(BASE_DIR, chart_name)
     return jsonify({'exists': os.path.exists(chart_path)})
 
+@app.route('/chart/<chart_name>')
+def fullscreen_chart(chart_name):
+    """Display a single chart in full-page view"""
+    return render_template('chart_view.html', chart_name=chart_name)
+
 if __name__ == '__main__':
     app.run(debug=True, port=5000)
