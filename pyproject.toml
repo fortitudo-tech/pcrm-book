@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pcrm-book"
-version = "1.0.10"
+version = "1.0.11"
 description = "Accompanying Python code to the Portfolio Construction and Risk Management book by Anton Vorobets."
 authors = ["Anton Vorobets <admin@fortitudo.tech>"]
 license = "GPL-3.0-or-later"
@@ -14,6 +14,7 @@ classifiers = [
     "Intended Audience :: Education",
     "Intended Audience :: Financial and Insurance Industry",
     "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.14",
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.12",
     "Programming Language :: Python :: 3.11",
@@ -27,7 +28,7 @@ classifiers = [
 "Issues" = "https://github.com/fortitudo-tech/pcrm-book/issues"
 
 [tool.poetry.dependencies]
-python = "^3.9, <3.14"
+python = "^3.9, <3.15"
 fortitudo-tech = "^1.1.8"
 jupyterlab = "^4.3.0"
 yfinance = "^0.2.50"
